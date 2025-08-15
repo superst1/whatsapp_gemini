@@ -1,0 +1,16 @@
+JSON
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/whatsapp.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/whatsapp",
+      "dest": "/api/whatsapp.js"
+    }
+  ]
+}
